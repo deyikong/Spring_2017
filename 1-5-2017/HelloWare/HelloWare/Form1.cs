@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WinFormAppDemo
+namespace HelloWare
 {
     public partial class Form1 : Form
     {
@@ -17,9 +17,10 @@ namespace WinFormAppDemo
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void helloBtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Welcome, " + textBox1.Text + "!");
+            //action
+            MessageBox.Show("Hello");
         }
     }
 }

@@ -46,23 +46,19 @@ namespace Playground
 
             if(x>5&&x<15)
             {
+
                 Console.WriteLine("Bigger than 5, smaller than 15");
 
-                NewMethod(x);
+                if (x==6) //nested if statement
+                {
+                    Console.WriteLine("6");
+                }
             }
             else
             {
                 Console.WriteLine("others");
             }
 
-        }
-
-        private static void NewMethod(int x)
-        {
-            if (x == 6) //nested if statement
-            {
-                Console.WriteLine("6");
-            }
         }
     }
 }

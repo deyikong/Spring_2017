@@ -51,12 +51,14 @@ namespace Playground
             Increment and Decrement
             if Statement/if...else...//nested if...else...
             Comparison operators: < > <= >= ++ !=,  && ||
+            
             Switch statement
             Iteration Statement
                 foreach
                 for
                 while and do
                 break out of a loop
+
             */
             int valueReturnedFromAPrivateMethod = this.APrivateMethod();
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Inventory
 {
-    abstract class Employee
+    abstract class Employee:IEmployee
     {
         int id;
         private string firstName;
@@ -53,10 +53,6 @@ namespace Inventory
             }
         }
 
-        //public Employee()
-        //{
-
-        //}
         public Employee(int id, string firstName, string lastName)
         {
             this.id = id;
@@ -65,7 +61,7 @@ namespace Inventory
             this.joinDate = DateTime.Now;
         }
 
-        public double GetMonthlySalary()
+        public virtual double GetMonthlySalary()
         {
             return 0.0;
         }

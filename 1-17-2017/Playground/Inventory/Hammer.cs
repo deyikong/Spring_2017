@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace Inventory
 {
-    class SerialNumberGenerator
+    class Hammer : Item
     {
-        public int GetSerialNumber()//generate random id.
+        public Hammer(int id, string name) : base(id, name)
         {
-            return 0;
         }
     }
 }

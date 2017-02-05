@@ -76,7 +76,9 @@ FROM [dbo].[Customer]
 
 
 
-
+SELECT Id, FirstName, LastName, Email, UserName, Password, Phone, IsActive, CreatedDate
+FROM [dbo].[Customer]
+WHERE FirstName LIKE 'Kathy%'
 
 
 

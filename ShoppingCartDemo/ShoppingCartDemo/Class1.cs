@@ -9,7 +9,10 @@ namespace ShoppingCartDemo
     class Class1
     {
 
-        
+        private void TestSpecialCharaters()
+        {
+            String lastName = "Smith\"test"; // Smith"test
+        }
 
         public void SomeMethod(int i)
         {

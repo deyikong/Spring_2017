@@ -8,6 +8,7 @@ EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ShoppingCartWeb", "ShoppingCartWeb\", "{4BB30134-5173-4C65-AA46-DCC8FFFE04BE}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		ProjectReferences = "{4b148a2d-40ee-4685-8f4d-90ba6d2bea8d}|ShoppingCartDataAccess.dll;{DC0706B9-CF61-460A-AF99-AA6BE32AA546}|ShoppingCartEntity.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_51361"
 		Debug.AspNetCompiler.PhysicalPath = "ShoppingCartWeb\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51361\"
@@ -29,6 +30,12 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ShoppingCartWeb", "Shopping
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{53303D9C-8B92-46AD-8184-FAA88385E450}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCartEntity", "ShoppingCartEntity\ShoppingCartEntity.csproj", "{DC0706B9-CF61-460A-AF99-AA6BE32AA546}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{059BE51E-8342-47A2-9546-706BD3302AB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCartDataAccess", "ShoppingCartDataAccess\ShoppingCartDataAccess.csproj", "{4B148A2D-40EE-4685-8F4D-90BA6D2BEA8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,8 +54,20 @@ Global
 		{53303D9C-8B92-46AD-8184-FAA88385E450}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53303D9C-8B92-46AD-8184-FAA88385E450}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53303D9C-8B92-46AD-8184-FAA88385E450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC0706B9-CF61-460A-AF99-AA6BE32AA546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC0706B9-CF61-460A-AF99-AA6BE32AA546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC0706B9-CF61-460A-AF99-AA6BE32AA546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC0706B9-CF61-460A-AF99-AA6BE32AA546}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B148A2D-40EE-4685-8F4D-90BA6D2BEA8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B148A2D-40EE-4685-8F4D-90BA6D2BEA8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B148A2D-40EE-4685-8F4D-90BA6D2BEA8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B148A2D-40EE-4685-8F4D-90BA6D2BEA8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DC0706B9-CF61-460A-AF99-AA6BE32AA546} = {059BE51E-8342-47A2-9546-706BD3302AB7}
+		{4B148A2D-40EE-4685-8F4D-90BA6D2BEA8D} = {059BE51E-8342-47A2-9546-706BD3302AB7}
 	EndGlobalSection
 EndGlobal

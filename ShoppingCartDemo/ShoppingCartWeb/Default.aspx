@@ -13,6 +13,7 @@
         <asp:Label ID="Label1" runat="server" Text="Id: "></asp:Label>
         <asp:TextBox ID="txtId" runat="server" Height="22px"></asp:TextBox>
         <asp:Button ID="btnSearch" runat="server" OnClick="btnSearch_Click" Text="Search" />
+        <asp:Button ID="btnOrmSearch" runat="server" OnClick="btnOrmSearch_Click" Text="Search with ORM" />
         <br />
         <asp:Label ID="lblInfo" runat="server" ForeColor="Red"></asp:Label>
         <br />
@@ -29,6 +30,8 @@
         <br />
         <br />
         <asp:Button ID="btnUpdate" runat="server" OnClick="btnUpdate_Click" Text="Update" />
+    
+    &nbsp;<asp:Button ID="btnUpdate2" runat="server" OnClick="btnUpdate2_Click" Text="Update with ORM" />
     
     </div>
     </form>

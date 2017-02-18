@@ -1,0 +1,34 @@
+table,th,tr,td
+{
+border: 1px solid blue; 
+}
+td
+{
+padding: 15px;
+}
+
+tr:nth-child(even)
+{
+	background-color:gray;
+}
+th
+{
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+div.myPicture {
+ margin:30px 30px 30px 30px;
+}
+
+div.divWithMargin {
+ margin:20px 30px 20px 30px;
+}
+
+#mypic{
+max-width:100%;
+width:600px;
+height:350px;
+background-color:pink;
+margin:0;
+}

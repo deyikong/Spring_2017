@@ -1,0 +1,14 @@
+.menu {
+	background-color:yellow;
+	font-size:25px;
+}
+
+.content {
+	background-color:gray;
+	color:green;
+	font-size:20px;
+}
+
+html,body{
+	height:100%;
+	}

@@ -1,0 +1,11 @@
+﻿@model MovieDemo.Models.DemoStudent
+@{
+    ViewBag.Title = "Index";
+}
+
+@{ 
+    String title = Model.Gender == "M" ? "Mr." : "Mrs.";
+}
+
+<h2>Welcome, @title @Model.LastName @Model.FirstName From @Model.University University!</h2>
+

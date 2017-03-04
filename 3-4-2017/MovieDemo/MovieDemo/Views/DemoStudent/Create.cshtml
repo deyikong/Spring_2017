@@ -1,0 +1,33 @@
+﻿@model MovieDemo.Models.DemoStudent
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm("Show","DemoStudent",FormMethod.Post))
+{
+    @Html.ValidationSummary(excludePropertyErrors: true)
+
+    @Html.LabelFor(model => model.FirstName)
+    @Html.EditorFor(model => model.FirstName)
+    @Html.ValidationMessageFor(model => model.FirstName)
+    <br />
+
+    @Html.LabelFor(model => model.LastName)
+    @Html.EditorFor(model => model.LastName)
+    @Html.ValidationMessageFor(model => model.LastName)
+    <br />
+
+    @Html.LabelFor(model => model.University)
+    @Html.EditorFor(model => model.University)
+    @Html.ValidationMessageFor(model => model.University)
+    <br />
+
+    @Html.DropDownListFor(m => m.Gender, new List<SelectListItem>
+                   { new SelectListItem{Text="Male", Value="M"},
+                     new SelectListItem{Text="Female", Value="F"}}, "Please select")
+
+    <input type="submit" value="Submit" />
+
+}

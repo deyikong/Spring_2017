@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#myButton").click(function(){
+	$("#myDiv").load("https://www.w3schools.com/jquery/demo_test.txt");
+	});
+});
+</script>
+</head>
+<body >
+
+<div id="myDiv">
+  <p >I am an original paragraph!</p>
+</div>
+<div>
+<button id="myButton">
+Click Me to Load the text file above me!</button>
+</div>
+</body>
+</html>

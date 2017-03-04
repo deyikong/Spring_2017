@@ -1,0 +1,28 @@
+Q&A about adding a controller, a view and a model. 
+
+Start reading:
+	Creating a connection string and working with SQL Server LocalDB
+	Accessing Your Model's Data from a Controller
+	
+Razor Syntax: Book P63-P70 +  https://docs.microsoft.com/en-us/aspnet/web-pages/overview/getting-started/introducing-razor-syntax-c
+
+View: book: P54-P57
+
+Due: 3/9/2017
+Homework: Build a Class SignUp System (Similar to Resume Management and Recruitment Management System)
+
+		1. Create a model that contains the following fields:
+				*First Name: Textbox
+				*Last Name: Textbox
+				*Email: Textbox
+				*Phone Number: Textbox
+				*Gender: Radio Button
+				*Degree: Dropdown[Bachelor's, Master, Ph.D, Others ]
+				*Major: Textbox
+				*What Course do you want to register?:Dropdown [ASP.Net Full Stack, Business Intelligence(BI), Big Data]
+				*Which Session?: Dropdown ---Session Number like 1001, 1002, 2001, ...
+				*Reason To Join Us: TextArea
+				*How did you hear about us?: TextArea
+				Current Occupation: Textbox
+				
+	(Hint: HTML POST,Razor: BeginForm, Read CH5)

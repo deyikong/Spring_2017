@@ -11,6 +11,33 @@
 
 
 $(function(){
+$("#mySelect").change(function(){
+
+var selectedVal = $( "#mySelect option:selected" ).val();
+
+if(selectedVal=='gray'){
+$("#myContent").removeClass("content");
+$("#myContent").removeClass("dark-content");
+$("#myContent").addClass("gray-content");
+$("#menu").removeClass("dark-menu");
+$("#menu").addClass("gray-menu");
+}
+
+if(selectedVal=='dark'){
+$("#myContent").removeClass("content");
+$("#myContent").removeClass("gray-content");
+$("#myContent").addClass("dark-content");
+
+$("#menu").removeClass("gray-menu");
+
+$("#menu").addClass("dark-menu");
+}
+
+
+}
+);
+
+
 $("#demo3").click( function(){ $("#menu").addClass("menu");});
 
 $("#demo2").click( function(){changeText();});
@@ -22,10 +49,17 @@ $("#demo2").click( function(){changeText();});
 
 <div id="menu" style = "height:15%;" ></div>
 
-<div class="row content" style = "height:70%;">
+<div class="row content" id="myContent" style = "height:70%;">
 
     <div id="side-munu"class="col-sm-4" style="height:100%;">
 	<p id="demo">Zhang San</p>
+	
+	<select id="mySelect">
+	<option value="dark">
+	Dark</option>
+	<option value="gray">
+	Gray</option>
+	</select>
 <button id="demo2">1</button>
 <button id="demo3">2</button>
 	<button type="button" onclick='document.getElementById("side-munu").style.backgroundColor ="red";'>Change BG Color to Red </button>

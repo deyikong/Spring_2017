@@ -5,9 +5,6 @@ using System.Web;
 
 namespace MovieDemo.Models
 {
-
-
-
     public class DemoStudent
     {
         public String FirstName {

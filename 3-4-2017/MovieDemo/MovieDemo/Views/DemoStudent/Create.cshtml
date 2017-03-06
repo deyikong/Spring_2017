@@ -5,7 +5,9 @@
 
 <h2>Create</h2>
 
-@using (Html.BeginForm("Show","DemoStudent",FormMethod.Post))
+
+
+@using (Html.BeginForm("Save","DemoStudent",FormMethod.Post))
 {
     @Html.ValidationSummary(excludePropertyErrors: true)
 
@@ -31,3 +33,4 @@
     <input type="submit" value="Submit" />
 
 }
+

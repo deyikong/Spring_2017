@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HWA.ECom.Entity", "HWA.ECom.Entity\HWA.ECom.Entity.csproj", "{944B5679-3743-4FEC-8C40-483FFAD92FC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HWA.ECom.Repository", "HWA.ECom.Repository\HWA.ECom.Repository.csproj", "{195B6508-C358-4C28-98CF-2DA89AFB66BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HWA.ECom.Web", "HWA.ECom.Web\HWA.ECom.Web.csproj", "{5404DA25-082D-4E33-86CE-C7279F2C6C97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{944B5679-3743-4FEC-8C40-483FFAD92FC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{944B5679-3743-4FEC-8C40-483FFAD92FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{944B5679-3743-4FEC-8C40-483FFAD92FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{944B5679-3743-4FEC-8C40-483FFAD92FC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{195B6508-C358-4C28-98CF-2DA89AFB66BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{195B6508-C358-4C28-98CF-2DA89AFB66BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{195B6508-C358-4C28-98CF-2DA89AFB66BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{195B6508-C358-4C28-98CF-2DA89AFB66BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5404DA25-082D-4E33-86CE-C7279F2C6C97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5404DA25-082D-4E33-86CE-C7279F2C6C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5404DA25-082D-4E33-86CE-C7279F2C6C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5404DA25-082D-4E33-86CE-C7279F2C6C97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
